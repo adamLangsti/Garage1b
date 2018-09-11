@@ -1,0 +1,19 @@
+
+	HTML beskriver en sidas innehåll och struktur. "Den här texten ska finnas på sidan, i den här ordningen."
+
+	CSS beskriver hur taggar/element ska presenteras. "Det här elementet ska ha röd textfärg och vara understruket."
+
+	Javascript hanterar användarens interaktion med sidan. "När jag klickar på den här knappen ska det här hända."
+
+	Separation of concerns innebär att man inte ivll blanda HTML CSS och Javascript utan ha dem i separate filer.
+	Filerna slutar normalt med .html .css och .js
+
+	HTML dokumentet
+
+	<!doctype html>
+
+	<html> </html> anges i början och slutet av hela dokumentet.
+	<head> </head>används för information om sidan (metadata)
+	<body> </body>Anges före och efter sidans synliga innehåll.
+
+	
