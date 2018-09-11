@@ -1,0 +1,27 @@
+body	{background-color: darkblue;}
+h1	{color:white;	margin-left: 20px;	font-size: 40px;}
+p	{margin-left 40px;	font-size: 20px;	font-family: Georgia;}
+
+.rad1	{background-color: #53ff1a; height: 50vh;}
+
+.header	{background-color: #4a0000; height: 10vh; width: 100%; font-family: 'Playfair Display', serif;}
+.header {font-size: 20px; text-align:center; color: white;}
+
+.leftcol {background-color: darkblue; height: 80vh; float: left; width: 20%;}
+
+.content {background-color: #f4edc2; height: 70vh; float: left; width: 60%; font-family: 'Ruslan Display',cursive;}
+
+.rightcol {background-color: darkblue; height: 80vh; float: right; width 30%; color: white; }
+
+.footer {background-color: #4a0000; height: 15vh; width: 100%; clear: both; text-align: center; color:white;}
+
+ul {list-style-type:none; background-color:darkblue; margin: 0px; padding: 0px; text-align; center;}
+
+li a 	{display: block; text-decoration: none;}
+li	{float: left; padding: 1%; text-align: center;}
+
+li a:hover {background-color: black;}
+
+li a:visited {color: white;}
+li a:link {color: white;}
+ul{list-style-type: none;
