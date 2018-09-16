@@ -1,22 +1,43 @@
-body	{background-color: #00004c;}
-h1	{color:white;	margin-left: 20px;	font-size: 40px;}
-p	{margin-left 40px;	font-size: 20px;	font-family: Georgia;}
+body{
+    font-family: 'Nunito', sans-serif; color: #ffffff;
+    background-color: #00004c; margin:0px;
+    }
+    h1	{color: white;	margin: 1px;	font-size: 25px;}
+    p	{ padding: 24px;	font-size: 18px;	font-family: 'Open Sans', sans-serif #ffffff;}
 
 
-.header	{background-color: #4a0000; height: 20vh; width: 100%; font-family: 'Playfair Display', serif; font-size: 20px; text-align:center; color: white;}
+.header	{background-color: #4a0000;
+         font-family: 'Noto Serif JP', sans-serif;
+        width: 100%;
+        font-size: 20px; text-align:center; color: white;
+        }
 
-.leftcol {background-color: #00004c; height: 80vh; float: left; width: 20%;}
+.leftcol {background-color: #00004c; height: 84vh;
+            float: left; width: 20%;
+         }
 
-.content {background-color: #f4edc2; height: 70vh; float: left; width: 60%; font-family: 'Ruslan Display',cursive;}
 
-.rightcol {background-color: darkslateblue; height: 80vh; float: right; width 30%; color: white;}
 
-.footer {background-color: #4a0000; height: 15vh; width: 100%; clear: both; color:white; text-align: center;}
 
-ul {list-style-type:none; background-color:#4a0000; margin: 0px; padding: 0px; text-align: center;}
+
+
+
+        
+    
+.content {background-color: #D2CDC7; height: 60vh;
+    float: left; width: 59%; font-family: 'Quicksand', sans-serif;
+    margin: 0vh; text-align: center;
+    }
+
+
+.footer {background-color: #4a0000; height: 30px; width: 100%;
+    
+        clear: both; color:white; text-align: center;
+        }
+        ul {list-style-type:none; background-color:#4a0000; margin: 0vh; padding: 0vh; text-align: center;}
 
 li a 	{ text-decoration: none; text-align: center;}
-li	{background-color: #4a0000; display: inline-block; padding: 1%;}
+li	{background-color: #4a0000; display: inline-block; padding: 1%; }
 
 li a:hover {background-color: black;}
 
@@ -24,30 +45,26 @@ li a:visited {color: white;}
 li a:link {color: white;}
 ul{list-style-type: none;
 
-.map {max-height: 50px;}
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border:none;
+        border-radius: 4px;
+        cursor: pointer;
 }
 
 .container {
@@ -55,3 +72,4 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
