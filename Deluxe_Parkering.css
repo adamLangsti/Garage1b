@@ -1,38 +1,44 @@
 body{
-    font-family: 'Nunito', sans-serif; color: #ffffff;
+    font-family: 'Dosis', sans-serif; color: #ffffff; height:100%;
     background-color: #00004c; margin:0px;
     }
     h1	{color: white;	margin: 1px;	font-size: 25px;}
     p	{ padding: 24px;	font-size: 18px;	font-family: 'Open Sans', sans-serif #ffffff;}
 
+    html {height: 100%;}
 
-.header	{background-color: #4a0000;
-         font-family: 'Noto Serif JP', sans-serif;
+
+header	{background-color: #4a0000;
+         font-family: 'Quicksand';
         width: 100%;
         font-size: 20px; text-align:center; color: white;
         }
 
-.leftcol {background-color: #00004c; height: 84vh;
+.leftcol {background-color: #00004c; height: 80%;
             float: left; width: 20%;
          }
 .varatjanster {background-image: url("car-wash-1408492_1280.jpg");
     background-size: cover;
 }
+.ettklassnamn {color: #ff0000;
 
+}
 
+.klassnamn {color: #ff0000;}
 
+.klassen {color: #ff0000}
 
+.bokacontainer {text-align: center; height: 75%;}
 
-
-        
-    
+.bokabild {height: 300px; margin-top: 15px;}
+ 
 .content {background-color: #D2CDC7; height: 60vh;
     float: left; width: 59%; font-family: 'Quicksand', sans-serif;
     margin: 0vh; text-align: center;
     }
 
 
-.footer {background-color: #4a0000; height: 30px; width: 100%;
+footer {background-color: #4a0000; width: 100%;
     
         clear: both; color:white; text-align: center;
         }
@@ -45,13 +51,11 @@ li a:hover {background-color: black;}
 
 li a:visited {color: white;}
 li a:link {color: white;}
-ul{list-style-type: none;
+ul{list-style-type: none;}
 
 
 
     input[type=text], select, textarea {
-        width: 100%;
-        padding: 12%;
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
@@ -74,4 +78,15 @@ ul{list-style-type: none;
     background-color: #f2f2f2;
     padding: 20px;
 }
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+
+.homecontainer {text-align: center; height: 75%;}
+
+.infocontainer {height: 75%;}
 
