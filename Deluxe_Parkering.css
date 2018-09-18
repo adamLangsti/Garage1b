@@ -88,5 +88,12 @@ ul{list-style-type: none;}
 
 .homecontainer {text-align: center; height: 75%;}
 
-.infocontainer {height: 75%;}
+.infocontainer {height: 75%; text-align: center;}
+
+.mail {color: black;}
+
+.infobild {width: 40%;}
+
+.font1 {font-family:'Lobster' !important;}
+
 
