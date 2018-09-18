@@ -15,7 +15,9 @@ body{
 .leftcol {background-color: #00004c; height: 84vh;
             float: left; width: 20%;
          }
-
+.varatjanster {background-image: url("car-wash-1408492_1280.jpg");
+    background-size: cover;
+}
 
 
 
