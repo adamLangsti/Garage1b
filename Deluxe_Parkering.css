@@ -17,16 +17,16 @@ header	{background-color: #4a0000;
 .leftcol {background-color: #00004c; height: 80%;
             float: left; width: 20%;
          }
-.varatjanster {background-image: url("car-wash-1408492_1280.jpg");
+.varatjanster {background-image: url("cleaning-1837333_1280.jpg");
     background-size: cover;
 }
-.ettklassnamn {color: #ff0000;
+.ettklassnamn {color: white;
 
 }
 
-.klassnamn {color: #ff0000;}
+.klassnamn {color: white;}
 
-.klassen {color: #ff0000}
+.klassen {color: white;}
 
 .bokacontainer {text-align: center; height: 75%;}
 
@@ -95,5 +95,7 @@ ul{list-style-type: none;}
 .infobild {width: 40%;}
 
 .font1 {font-family:'Lobster' !important;}
+
+form {color: white;}
 
 
