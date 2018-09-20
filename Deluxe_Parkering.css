@@ -3,9 +3,9 @@ body{
     background-color: #00004c; margin:0px;
     }
     h1	{color: white;	margin: 1px;	font-size: 25px;}
-    p	{ padding: 24px;	font-size: 18px;	font-family: 'Open Sans',
+    p	{ padding: 24px;	font-size: 18px;	font-family: 'Open Sans'}
 
-    html {height: 100%;
+    html {height: 100%;}
 
 
 header	{background-color: #4a0000;
@@ -100,3 +100,5 @@ form {color: white;}
 
 #map { width: 750px; height: 400px;
 }
+
+
