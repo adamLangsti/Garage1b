@@ -1,5 +1,5 @@
 body{
-    font-family: 'Dosis', sans-serif; color: #ffffff; height:100%;
+    font-family: 'Dosis', sans-serif; height:100%;
     background-color: #00004c; margin:0px;
     }
     h1	{color: white;	margin: 1px;	font-size: 25px;}
@@ -98,6 +98,6 @@ ul{list-style-type: none;}
 
 form {color: white;}
 
-#map { width: 750px; height: 400px; allowfullscreen;}
+#map { width: 750px; height: 400px;}
 
 
