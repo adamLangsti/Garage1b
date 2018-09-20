@@ -1,18 +1,20 @@
-body{
-    font-family: 'Dosis', sans-serif; height:100%;
+body{ height:100%;
+
     background-color: #00004c; margin:0px;
     }
     h1	{color: white;	margin: 1px;	font-size: 25px;}
-    p	{ padding: 24px;	font-size: 18px;	font-family: 'Open Sans'}
+    p	{ padding: 24px;	font-size: 18px;	font-family: 'Open Sans';}
 
     html {height: 100%;}
 
 
-header	{background-color: #4a0000;
-         font-family: 'Quicksand';
+header 	{background-color: #4a0000;
+    
         width: 100%;
         font-size: 20px; text-align:center; color: white;
         }
+    
+header nav {font-family:'Quicksand', sans-serif;}
 
 .leftcol {background-color: #00004c; height: 80%;
             float: left; width: 20%;
@@ -90,11 +92,11 @@ ul{list-style-type: none;}
 
 .infocontainer {height: 75%; text-align: center; color:white;}
 
-.mail {color: black;}
+.mail {color: black; font-family: 'Nunito', sans-serif;}
 
 .infobild {width: 40%;}
 
-.font1 {font-family:'Lobster' !important;}
+.font1 {font-family: 'Source Code Pro', monospace;}
 
 form {color: white;}
 
